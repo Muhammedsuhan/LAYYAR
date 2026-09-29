@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Outfit', sans-serif;
+  color: #e5e4e0;
+  background: #0a0a0b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+
+.page-shell {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(2rem, 8vw, 8rem);
+  background: radial-gradient(circle at 80% 20%, #25241f 0, #0a0a0b 42%);
+}
+
+.eyebrow { margin: 0 0 1.5rem; color: #a8a69e; font-size: .75rem; font-weight: 600; letter-spacing: .24em; }
+h1 { max-width: 760px; margin: 0; font-size: clamp(3rem, 8vw, 7rem); font-weight: 400; line-height: .95; letter-spacing: -.06em; }
+.intro { max-width: 470px; margin: 2rem 0; color: #aaa9a3; font-size: 1.05rem; line-height: 1.6; }
+.cta { width: fit-content; border-bottom: 1px solid #e5e4e0; padding-bottom: .35rem; color: #e5e4e0; text-decoration: none; font-size: .9rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+.cta:hover { color: #b9b6aa; border-color: #b9b6aa; }
